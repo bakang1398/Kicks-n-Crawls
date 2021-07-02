@@ -1,4 +1,4 @@
-/* The body, contents and headings of every page below this line */
+/* The body, contents and headings for every page below this line */
 
 body { 
     background-color: #ffe3de;
@@ -8,6 +8,10 @@ body {
 	font-family: 'Rokkitt', serif;
 	font-size: 20px;
 	border-left: 7px solid #03506f;
+}
+
+.description {
+	text-align: center;
 }
 
 .banner {
@@ -34,12 +38,13 @@ body {
 	font-size: 20px;
 	margin-top: 0;
 	top: 210px;
-	 left: 200px;
+	left: 200px;
 }
 
 .headers {
-	font-size: 50px;
+	font-size: 45px;
 	font-family: 'Gelasio', serif;
+	text-align: center;
 	color: #03506f;
 }
 
@@ -51,11 +56,26 @@ body {
 	padding: 50px;
 }
 
-.about-us-head {
+.about-container {
+	margin: 50px;
+	display: grid;
+	width: 100%;
+	grid-template-columns: 1.2fr 1.8fr;
+	grid-template-rows: 1fr;
+}
+
+.about-heading {
 	position: absolute;
 	color: #03506f;
-	top: 25%;
-	left: 20%;
+	top: 35%;
+	left: 7%;
+}
+
+.col-right {
+	padding-right: 100px;
+	height: 92%;
+	font-size: 20px;
+	padding-top: 25px;
 }
 
 .contact-us-head {
@@ -112,22 +132,16 @@ body {
 	font-family: 'Gelasio', serif;
 }
 
-.product-images {
-	display: float;
-	flex-direction: column;
-	margin: 30px;
-}
-
 .product-area {
 	display: float;
 }
 
-hr{
+hr {
 	border-bottom: 5px dotted #03506f;
 	width: 5%;
-	border-top: none;
-	
+	border-top: none;	
 }
+
 .product-area figure {
 	display: inline-flex;
 	flex-direction: column;
@@ -136,8 +150,12 @@ hr{
 }
 
 .heading {
-	margin-bottom: 20px;
-	
+	margin-bottom: 20px;	
+}
+
+.product-box {
+	width: 100%;
+	display: float;
 }
 
 /* The contact page contents and links below this line*/
@@ -151,7 +169,6 @@ hr{
 form {
 	margin: 30px;
 }
-
 
 .contact-form {
 	width: 500px;
@@ -274,6 +291,3 @@ span {
 .fa-user-circle {
 	margin-left: 120px;
 }
-
-
-
