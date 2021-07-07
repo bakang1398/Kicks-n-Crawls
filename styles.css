@@ -5,40 +5,15 @@ body {
 }
 
 .content {
-	font-family: 'Rokkitt', serif;
+	font-family: 'Dosis', sans-serif;
 	font-size: 20px;
+	color: #03596f;
 	border-left: 7px solid #03506f;
+	padding-left: 10px;
 }
 
 .description {
 	text-align: center;
-}
-
-.banner {
-	position: relative;
-}
-
-.banner img {
-	width: 100%;
-	height: auto;
-}
-
-.home-head  {
-	position: absolute;
-	color: #03506f;
-	top: 10%;
-	left: 10%;
-	font-size: 70px;
-	font-family: 'Lobster Two', cursive;
-	margin-bottom: 0; 
-}
-
-.slogan {
-	position: absolute;
-	font-size: 20px;
-	margin-top: 0;
-	top: 210px;
-	left: 200px;
 }
 
 .headers {
@@ -46,44 +21,6 @@ body {
 	font-family: 'Gelasio', serif;
 	text-align: center;
 	color: #03506f;
-}
-
-.products-head {
-	position: absolute;
-	color: #03506f;
-	top: 35%;
-	left: 40%;
-	padding: 50px;
-}
-
-.about-container {
-	margin: 50px;
-	display: grid;
-	width: 100%;
-	grid-template-columns: 1.2fr 1.8fr;
-	grid-template-rows: 1fr;
-}
-
-.about-heading {
-	position: absolute;
-	color: #03506f;
-	top: 35%;
-	left: 7%;
-}
-
-.col-right {
-	padding-right: 100px;
-	height: 92%;
-	font-size: 20px;
-	padding-top: 25px;
-}
-
-.contact-us-head {
-	position: absolute;
-	color: #03506f;
-	top: 20%;
-	left: 20%;
-	padding:40px;
 }
 
 /* The nagivation menu/bar styling below this line */
@@ -124,7 +61,44 @@ body {
 	color: LightPink;
 } 
 
+/* The home page contents below this line */
+
+.banner {
+	position: relative;
+}
+
+.banner img {
+	width: 100%;
+	height: auto;
+}
+
+.home-head  {
+	position: absolute;
+	color: #03506f;
+	top: 10%;
+	left: 10%;
+	font-size: 70px;
+	font-family: 'Lobster Two', cursive;
+	margin-bottom: 0; 
+}
+
+.slogan {
+	position: absolute;
+	font-size: 20px;
+	margin-top: 0;
+	top: 210px;
+	left: 200px;
+}
+
 /* The product page/section and contents below this line */
+
+.products-head {
+	position: absolute;
+	color: #03506f;
+	top: 35%;
+	left: 40%;
+	padding: 50px;
+}
 
 .category {
 	text-align: center;
@@ -133,7 +107,25 @@ body {
 }
 
 .product-area {
-	display: float;
+	width: 90%;
+	padding: 20px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.box {
+	width: 280px;
+	height: 270px;
+	margin: 0 15px;
+}
+
+.box img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
 }
 
 hr {
@@ -149,16 +141,44 @@ hr {
 	margin: 40px;
 }
 
-.heading {
-	margin-bottom: 20px;	
-}
-
 .product-box {
 	width: 100%;
 	display: float;
 }
 
+/* The about page contents below this line */
+
+.about-heading {
+	position: absolute;
+	color: #03506f;
+	top: 35%;
+	left: 7%;
+}
+
+.about-container {
+	margin: 50px;
+	display: grid;
+	width: 100%;
+	grid-template-columns: 1.2fr 1.8fr;
+	grid-template-rows: 1fr;
+}
+
+.col-right {
+	padding-right: 100px;
+	height: 92%;
+	font-size: 20px;
+	padding-top: 25px;
+}
+
 /* The contact page contents and links below this line*/
+
+.contact-us-head {
+	position: absolute;
+	color: #03506f;
+	top: 20%;
+	left: 20%;
+	padding:40px;
+}
 
 .contact-links {
 	text-align: center;
@@ -215,13 +235,6 @@ form {
   background-color: #0a043c;
   color: white;
   font-family: 'Nunito', sans-serif;
-}
-
-.smaller-image {
-  width: 30px;
-  border: 1px;
-  border-color: black;
-  border-style: solid;
 }
 
 .footer-content {
