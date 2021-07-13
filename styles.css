@@ -85,25 +85,29 @@ body {
 
 .home-head  {
 	position: absolute;
-	color: #FFBCBC;
+	color: #FAEBE0;
 	top: 10%;
-	left: 40%;
+	left: 35%;
 	font-size: 70px;
 	margin-bottom: 0; 
+	font-family: 'Playfair Display', serif;
 }
 
 .slogan {
 	position: absolute;
 	font-size: 20px;
 	margin-top: 0;
-	top: 35%;
+	top: 40%;
 	left: 43%;
+	color: #fff;
+	font-family: 'Courgette', cursive;
 }
 
 #test-head{
 	text-align: center;
 	font-size: 30px;
 	margin-top: 6%;
+	color: #045063;
 }
 
 .testimonials{
@@ -133,14 +137,14 @@ body {
 	left: 40%;
 	padding: 50px;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 40px;
+	font-size: 45px;
 }
 
 .category {
 	text-align: center;
 	font-size: 26px;
 	font-family: 'Montserrat', sans-serif;
-	color: #0a043c;
+	color: #045063;
 }
 
 .content li {
@@ -150,7 +154,7 @@ body {
 .product-area {
 	width: 90%;
 	padding: 20px;
-	margin: auto;
+	margin: 100px auto;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -180,6 +184,7 @@ hr {
 
 .product-box {
 	text-align: center;
+	color: #045063;
 	margin: 20px;
 	display: grid;
 	width: 90%;
@@ -205,7 +210,7 @@ hr {
 .caption1 {
 	position: absolute;
 	left: 110px;
-	bottom: -295px;
+	bottom: -390px;
 	background-color: #fff;
 	color: #000;
 	border-radius: 3px;
@@ -218,7 +223,7 @@ hr {
 .caption2 {
 	position: absolute;
 	left: 390px;
-	bottom: -295px;
+	bottom: -390px;
 	background-color: #fff;
 	color: #000;
 	border-radius: 3px;
@@ -231,7 +236,7 @@ hr {
 .caption3 {
 	position: absolute;
 	left: 600px;
-	bottom: -295px;
+	bottom: -390px;
 	background-color: #fff;
 	color: #000;
 	border-radius: 3px;
@@ -244,7 +249,7 @@ hr {
 .caption4 {
 	position: absolute;
 	right: 370px;
-	bottom: -295px;
+	bottom: -390px;
 	background-color: #fff;
 	color: #000;
 	border-radius: 3px;
@@ -257,7 +262,7 @@ hr {
 .caption5 {
 	position: absolute;
 	right: 145px;
-	bottom: -295px;
+	bottom: -390px;
 	background-color: #fff;
 	color: #000;
 	border-radius: 3px;
@@ -273,23 +278,24 @@ hr {
 	position: absolute;
 	color: #03506f;
 	top: 35%;
-	left: 7%;
+	left: 12%;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 40px;
+	font-size: 45px;
 }
 
 .about-container {
-	margin: 50px;
+	margin: 50px 100px;
 	display: grid;
-	width: 100%;
+	width: 80%;
 	grid-template-columns: 1.2fr 1.8fr;
 	grid-template-rows: 1fr;
 }
 
 .col-right {
-	padding-right: 100px;
+	padding-right: 50px;
 	height: 92%;
 	padding-top: 25px;
+	margin-left: 30px;
 }
 
 /* The contact page contents and links below this line*/
@@ -297,7 +303,7 @@ hr {
 .contact-us-head {
 	position: absolute;
 	color: #03506f;
-	top: 20%;
+	top: 30%;
 	left: 20%;
 	padding:40px;
 	font-family: 'Montserrat', sans-serif;
