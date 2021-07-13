@@ -2,14 +2,18 @@
 
 body { 
     background-color: #ffe3de;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0%;
+	padding: 0;
+	
 }
 
 .content {
-	font-family: 'Dosis', sans-serif;
-	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
 	color: #03596f;
 	border-left: 7px solid #03506f;
-	padding-left: 10px;
+	padding-left: 20px;
 }
 
 .description {
@@ -17,26 +21,27 @@ body {
 }
 
 .headers {
-	font-size: 45px;
-	font-family: 'Gelasio', serif;
+	font-size: 35px;
+	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	color: #03506f;
 }
 
 /* The nagivation menu/bar styling below this line */
 
-.menu {
+.menu{
 	list-style-type: none;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	height: 80px;
+	margin: 25px 0;
+	/* padding-bottom: 50px; */
+	height: 100px;
+	text-align: center;
+	/* border: 1px solid black; */
 }
-
 
 .menu img {
     position: relative;
     top: 40px;
-    margin-right: 50%;
+    /* margin-right: 30%; */
     border: 2px solid #03506f;
     border-radius: 100px;
     margin-bottom: 10px;
@@ -50,16 +55,21 @@ body {
 .menu li a {
 	text-decoration: none;
 	color: #0a043c;
-	font-size: 20px;
-	font-family: 'Nunito', sans-serif;
-	margin-left: 10px;
-	margin-right: 10px;
+	font-size: 22px;
+	margin: auto 10px;
 }
 
 .menu li a:hover {
-	background-color: FloralWhite;
-	color: LightPink;
+	border-bottom: 2px solid #9F5F80;
+	
 } 
+
+.menu .current {
+	background-color: #9F5F80;
+	color: #fff;
+	border-radius: 3px;
+	padding: 5px;
+}
 
 /* The home page contents below this line */
 
@@ -69,16 +79,16 @@ body {
 
 .banner img {
 	width: 100%;
-	height: auto;
+	height: 350px;
+	filter: blur(1px);
 }
 
 .home-head  {
 	position: absolute;
-	color: #03506f;
+	color: #FFBCBC;
 	top: 10%;
-	left: 10%;
+	left: 40%;
 	font-size: 70px;
-	font-family: 'Lobster Two', cursive;
 	margin-bottom: 0; 
 }
 
@@ -86,8 +96,32 @@ body {
 	position: absolute;
 	font-size: 20px;
 	margin-top: 0;
-	top: 210px;
-	left: 200px;
+	top: 35%;
+	left: 43%;
+}
+
+#test-head{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 6%;
+}
+
+.testimonials{
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;	
+		
+}
+
+.test-box{
+	margin-top: 10px;
+	width: 30%;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #FFBCBC;
+	padding: 15px;
+	border-radius: 5px;
+	margin-bottom: 25px;
+	color: #03506f;
 }
 
 /* The product page/section and contents below this line */
@@ -98,12 +132,19 @@ body {
 	top: 35%;
 	left: 40%;
 	padding: 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
 }
 
 .category {
 	text-align: center;
 	font-size: 26px;
-	font-family: 'Gelasio', serif;
+	font-family: 'Montserrat', sans-serif;
+	color: #0a043c;
+}
+
+.content li {
+	margin-left: 20px;
 }
 
 .product-area {
@@ -117,16 +158,19 @@ body {
 
 .box {
 	width: 280px;
-	height: 270px;
+	height: 260px;
 	margin: 0 15px;
+	border-radius: 7px;
+	box-shadow: 0 2px 5px 0 rgb(19, 18, 18);
 }
 
 .box img {
 	display: block;
 	width: 100%;
 	height: 100%;
-	border-radius: 5px;
+	border-radius: 7px;
 }
+
 
 hr {
 	border-bottom: 5px dotted #03506f;
@@ -134,16 +178,93 @@ hr {
 	border-top: none;	
 }
 
-.product-area figure {
-	display: inline-flex;
-	flex-direction: column;
+.product-box {
 	text-align: center;
-	margin: 40px;
+	margin: 20px;
+	display: grid;
+	width: 90%;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 15px;
+	font-size: 18px;
+	margin: 30px auto 0 auto;
 }
 
-.product-box {
-	width: 100%;
-	display: float;
+.grid-box {
+	height: 350px;
+}
+
+.grid-box img {
+	width: 70%;
+	height: 60%;
+	border-radius: 5px;
+	border: 1px solid #9F5F80;
+	box-shadow: 0 2px 1px 0 rgb(19, 18, 18);
+}
+
+.caption1 {
+	position: absolute;
+	left: 110px;
+	bottom: -295px;
+	background-color: #fff;
+	color: #000;
+	border-radius: 3px;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding: 5px;
+}
+
+.caption2 {
+	position: absolute;
+	left: 390px;
+	bottom: -295px;
+	background-color: #fff;
+	color: #000;
+	border-radius: 3px;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding: 5px;
+}
+
+.caption3 {
+	position: absolute;
+	left: 600px;
+	bottom: -295px;
+	background-color: #fff;
+	color: #000;
+	border-radius: 3px;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding: 5px;
+}
+
+.caption4 {
+	position: absolute;
+	right: 370px;
+	bottom: -295px;
+	background-color: #fff;
+	color: #000;
+	border-radius: 3px;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding: 5px;
+}
+
+.caption5 {
+	position: absolute;
+	right: 145px;
+	bottom: -295px;
+	background-color: #fff;
+	color: #000;
+	border-radius: 3px;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding: 5px;
 }
 
 /* The about page contents below this line */
@@ -153,6 +274,8 @@ hr {
 	color: #03506f;
 	top: 35%;
 	left: 7%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
 }
 
 .about-container {
@@ -166,7 +289,6 @@ hr {
 .col-right {
 	padding-right: 100px;
 	height: 92%;
-	font-size: 20px;
 	padding-top: 25px;
 }
 
@@ -178,43 +300,67 @@ hr {
 	top: 20%;
 	left: 20%;
 	padding:40px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
 }
 
-.contact-links {
-	text-align: center;
-	font-size: 20px;
-	font-family: 'Rokkitt', serif;
+.contact-wrapper {
+    display: grid;
+    width: 70%;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+    margin: 20px auto;
+	border-radius: 7px;
+	background-color: #f5bcb9;
+	box-shadow: 0 2px 5px 0 #03506f;
+	font-size: 18px;
 }
 
-form {
-	margin: 30px;
+.wrapper-box {
+  padding: 20px;
+  text-align: center;
 }
 
-.contact-form {
-	width: 500px;
+.wrapper-box a {
+    text-decoration: none;
+    color: #03596f;
+}
+
+.wrapper-box form {
+	width: 350px;
+    border-radius: 5px;
 	background-color: #d3e0ea;
 	top: 50%;
 	left: 50%;
 	margin: auto;
 }
 
+.contact-info {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #03596f;
+	padding-left: 20px;
+}
+
 .input-text {
 	margin-top: 20px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding: 5px;
 	border: 1px dashed #03596f;
+    border-radius: 5px;
 }
 
 .textarea-part {
-	height: 150px;
+    width: 170px;
+	height: 100px;
 	padding-top: 10px;
 }
 
 .send-btn {
+    width: 100px;
 	padding: 10px;
 	margin-top: 15px;
 	margin-bottom: 15px;
-	border-radius: 15px;
+	border-radius: 10px;
 	border: none;
 	color: white;
 	background-color: #03596f;
@@ -223,53 +369,46 @@ form {
 	cursor: pointer;
 }
 	
-
 /* The footer section styling below this line*/
 
-.footer {
-  position: float;
-  padding: 10px 0px 0px 0px;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #0a043c;
-  color: white;
-  font-family: 'Nunito', sans-serif;
+.foot{
+	background-color: #03506f;
+	color: #fff;
 }
 
-.footer-content {
+footer{
 	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
-.footer-columns {
-	padding: 10px;
-	display: inline-block;
-	justify-content: space-evenly;
-	margin-left: 50px;	
-}
-
-.quick-links {
+.footer-column a{
 	text-decoration: none;
-	color: white;
-	font-size: 15px;
-	font-family: 'Nunito', sans-serif;
+	color: #fff;
+}
+.socials{
+	text-align: center;
+	margin: 20px 0;
+	padding-top: 30px;
+	
+}
+.socials a{
+	margin-left: 50px;
+	
+}
+.copyright{
+	text-align: center;
+	padding: 30px;
+	background-color: #5EAAA8;
 }
 
-.copyright {
-	margin-top: 0;
-	padding-bottom: 10px;
-	background-color: #0a043c;
-	color: white;
-	text-align: center;
-	font-family: 'Nunito', sans-serif;
-}
 
 /* The contact links to the company are below this line */
 
 span {
 	margin: 5px;
 	font-size: 15px;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .fab {
@@ -288,19 +427,27 @@ span {
 }
 
 .fa-envelope {
-	font-size: 20px;
+	font-size: 25px;
 	margin: 5px;
 	color: white;
 }
 
 .fa-instagram-square {
-	color: #c25299;
+	color: #CE1F6A;
 }
 
 .fa-twitter {
-	color: skyblue;
+	color: #bcddf5;
 }
 
 .fa-user-circle {
 	margin-left: 120px;
+}
+
+/* Quick links styling below this line */
+
+.info {
+	width: 80%;
+	margin: 10% auto;
+	color: #9F5F80;
 }
