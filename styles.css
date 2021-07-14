@@ -392,20 +392,23 @@ footer{
 	text-decoration: none;
 	color: #fff;
 }
+
 .socials{
 	text-align: center;
 	margin: 20px 0;
 	padding-top: 30px;
 	
 }
+
 .socials a{
 	margin-left: 50px;
 	
 }
+
 .copyright{
 	text-align: center;
-	padding: 30px;
-	background-color: #5EAAA8;
+	padding: 20px;
+	background-color: #046582;
 }
 
 
