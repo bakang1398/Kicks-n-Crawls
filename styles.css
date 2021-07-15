@@ -14,6 +14,7 @@ body {
 	color: #03596f;
 	border-left: 7px solid #03506f;
 	padding-left: 20px;
+	margin-left: 10px;
 }
 
 .description {
@@ -85,7 +86,7 @@ body {
 
 .home-head  {
 	position: absolute;
-	color: #FAEBE0;
+	color: #eccfec;
 	top: 10%;
 	left: 35%;
 	font-size: 70px;
@@ -119,12 +120,12 @@ body {
 
 .test-box{
 	margin-top: 10px;
-	width: 30%;
+	width: 25%;
 	font-family: 'Montserrat', sans-serif;
 	background-color: #FFBCBC;
 	padding: 15px;
 	border-radius: 5px;
-	margin-bottom: 25px;
+	margin-bottom: 35px;
 	color: #03506f;
 }
 
@@ -284,7 +285,7 @@ hr {
 }
 
 .about-container {
-	margin: 50px 100px;
+	margin: 100px;
 	display: grid;
 	width: 80%;
 	grid-template-columns: 1.2fr 1.8fr;
