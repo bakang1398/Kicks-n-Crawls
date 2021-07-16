@@ -12,7 +12,7 @@ This project is a simple website created to practise the intermediate understadi
 - Javasvript
 
 ## Project Status
-Project is complete
+Project is in progress.
 
 ## Room for Improvement
 To do:
