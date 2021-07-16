@@ -2,6 +2,12 @@
 This project showcases the basic to intermediate understanding of HTML, CSS and JavaScript.
 
 ## Table of Contents
+- [General info](#general-info)
+- [Technologies Used](technologies-used)
+- [Project Status](#project-status)
+- [Room for Improvement](#room-for-improvement)
+- [Acknoledgements](#acknoledgements)
+- [Authors](#authors)
 
 ## General Information
 This project is a simple website created to practise the intermediate understading of HTML, CC and Javascript. It was a task constructed under the GirlCode learnership.
