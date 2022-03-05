@@ -20,9 +20,10 @@ This project showcases the integration of HTML, CSS and JavaScript to produce a 
 ![footer](https://user-images.githubusercontent.com/83421867/156890690-b82c0b08-d45b-42e8-9eff-8369e71a90f9.PNG)
 ![products 1](https://user-images.githubusercontent.com/83421867/156890695-ad4df354-fe7c-4f18-a783-e91b1c0ec4c7.PNG)
 ![products 2](https://user-images.githubusercontent.com/83421867/156890696-f9842873-0a08-4de8-9eeb-a2ae3706d8e5.PNG)
-![about us](https://user-images.githubusercontent.com/83421867/156890688-5e792e43-063b-4c14-9606-efaa16de434c.PNG) ![contact us](https://user-images.githubusercontent.com/83421867/156890689-4de6c1dd-d04e-414f-8e62-006b2d51f926.PNG)
+![about us](https://user-images.githubusercontent.com/83421867/156890688-5e792e43-063b-4c14-9606-efaa16de434c.PNG) 
+![contact us](https://user-images.githubusercontent.com/83421867/156890689-4de6c1dd-d04e-414f-8e62-006b2d51f926.PNG)
 
-##Live Demo
+## Live Demo
 Use this link to view the website:
 - [Live Demo](https://raw.githack.com/bakang1398/Kicks-n-Crawls/master/index.html)
 
